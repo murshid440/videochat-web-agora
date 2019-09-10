@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Video Call Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Codeply">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" /><link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+ <header id="first">
+<div>
+        <a href="/index.html" class="btn btn-primary" style="margin:23px;float:left;width:90px;height:30px;">Leave</a>
+
+<!--here is the users feed-->  
+    <div style="float:right;width:310px;height:247px;display:inline-block;">
+            <div id="me"></div>
+            </div>
+            <div class="vl"></div>
+<!--ends here-->
+<!--other users feeds-->
+<div class="header-content">
+ <div class="inner">
+<h4>Remote Feed:</h4>
+<div id="remote-container">
+</div>
+</div>
+<!--ends here-->
+<script src="scripts/AgoraRTCSDK-2.4.0.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
